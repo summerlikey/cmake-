@@ -7,9 +7,9 @@ project(veh)
 set(CMAKE_BUILD_TYPE Release)
 
 #设置可执行文件路径todo
-set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR})
 #设置动态库输出路径
-set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 # OpenCV
 find_package(OpenCV REQUIRED)
@@ -39,8 +39,9 @@ set(INTERNAL_LI
 
 ############### source and test ######################
 #头文件搜索目录，本地和第三方的
-include_directories(${INTERNAL_INCLUDE}
-                    ${THIRD_INCLUDE_DIRS})
+include_directories(
+        ${INTERNAL_INCLUDE}
+        ${THIRD_INCLUDE_DIRS})
 #本地库文件搜索目录
 link_libraries(${INTERNAL_LIB})
 
