@@ -1,7 +1,7 @@
 #版本
 cmake_minimum_required(VERSION 3.0)
 #项目名
-project(veh)
+project(cmake-demo)
 
 #cmake模式
 set(CMAKE_BUILD_TYPE Release)
