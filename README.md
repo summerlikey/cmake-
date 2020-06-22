@@ -7,19 +7,6 @@
 ├── build
 ├── CMakeLists.txt
 ├── COPYRIGHT
-├── data
-│   ├── images_src_01
-│   │   ├── left_images
-│   │   │   ├── left_src_01.JPG
-│   │   │   ├── left_src_02.JPG
-│   │   │   └── left_src_03.JPG
-│   │   └── righte_images
-│   │       ├── right_src_01.JPG
-│   │       ├── right_src_02.JPG
-│   │       └── right_src_03.JPG
-│   └── images_src_02
-│       ├── left_images
-│       └── righte_images
 ├── docs
 │   └── README.md
 ├── include
